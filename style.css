@@ -1,0 +1,471 @@
+html,
+body {
+ width: 100%;
+ height: 100%;
+ margin: 0px;
+ padding: 0px;
+ overflow-x: hidden;
+}
+
+.title {
+ font-weight: 700;
+}
+
+/*global*/
+
+body {
+ background-color: #EFF1F2;
+ position: relative;
+ font-family: 'Lato', sans-serif;
+ font-weight: 900;
+ overflow-x: hidden;
+}
+
+p {
+ font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+ font-family: 'Righteous', cursive;
+}
+
+.display-4 {
+ margin-bottom: 3%;
+}
+
+.center {
+ text-align: center;
+}
+
+strong {
+ color: #22252A;
+}
+
+/*navbar*/
+
+.navbar {
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 999;
+ font-family: 'Righteous', cursive;
+}
+
+#email {
+ color: #9A9DA0;
+}
+
+#email:hover {
+ color: #FFFFFF;
+ cursor: pointer;
+}
+
+.vastlogo {
+ height: 25px;
+}
+
+.nav-link {
+ color: #9A9DA0;
+ border: 0px;
+}
+
+.nav-pills .nav-link {
+ border: 0px;
+}
+
+.nav-link:hover {
+ color: #FFFFFF;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+ background-color: transparent;
+ color: #9A9DA0;
+}
+
+.nav-link:focus {
+ color: #FFFFFF;
+}
+
+/*header*/
+
+.jumbotron {
+ background: transparent;
+ color: white;
+}
+
+/*header*/
+
+.headerimage {
+ background-image: url(img/VastLogoPattern.png);
+ min-height: 55rem;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-bottom: -32px;
+}
+
+#header {
+ margin-top: 13%;
+ text-align: center;
+}
+
+.headerlogo {
+ height: 6rem;
+}
+
+@media (max-width: 768px) {
+ #header {
+  margin-top: 30%;
+ }
+}
+
+@media (max-width: 576px) {
+ #header {
+  margin-top: 60%;
+ }
+ #header .display-4 {
+  font-size: 1.9em;
+ }
+}
+
+/*About Us*/
+
+.aboutus {
+ padding-top: 1%;
+ margin-bottom: 4%;
+}
+
+@media (max-width: 576px) {
+ #about .display-4 {
+  font-size: 1.9em;
+  margin-bottom: 6%
+ }
+}
+
+/*services*/
+
+.iconimg1 {
+ height: 500px;
+ overflow: hidden;
+ background-image: url(img/Photo1.png);
+ background-position: center;
+
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.iconimg2 {
+ height: 500px;
+ overflow: hidden;
+ background-image: url(img/Photo2.png);
+ background-position: center;
+
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.textarea1 {
+ background-image: url("img/backgroundpattern.png");
+ color: white;
+ height: 500px;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.textarea2 {
+ background-image: url("img/backgroundpattern.png");
+ color: white;
+ height: 500px;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.textareatext {
+ margin-top: 175px;
+}
+
+.about {
+ background-color: #ffffff;
+ color: #383D41;
+ padding-bottom: 2%;
+}
+
+.gleamstat {
+ margin-top: 220px;
+ color: #ffffff;
+}
+
+.emailstat {
+ margin-top: 220px;
+ color: #ffffff;
+}
+
+.staticon {
+ color: #FFFFFF;
+}
+
+/*services animations*/
+
+.fa-info-circle {
+ margin-bottom: 10%;
+}
+
+/*packages*/
+
+.packagestitle {
+ font-weight: 400;
+ margin-bottom: 7%;
+}
+
+.packagetitlepair {
+ margin-top: 7%;
+ margin-bottom: 20%;
+}
+
+.tier1 {
+ width: 175px;
+ padding-top: 15%;
+}
+
+.tier2 {
+ width: 175px;
+ padding-top: 15%;
+}
+
+.tier3 {
+ width: 175px;
+ padding-top: 15%;
+}
+
+/*Comparison*/
+
+.vs {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 80px;
+ z-index: 1;
+}
+
+.boring {
+ width: 100%;
+ height: auto;
+}
+
+.exciting {
+ width: 100%;
+ height: auto;
+ float: right;
+}
+
+.boringtext {
+ margin-top: 5%;
+}
+
+.excitingtext {
+ margin-top: 5%;
+ float: right;
+}
+
+.comparisontext {
+ margin-top: 2.5%;
+}
+
+.comparisonicon {
+ display: block;
+ margin: 0 auto 0 auto;
+ font-size: 4em;
+}
+
+.giveaways {
+ background-image: url("img/giveawaybg.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ padding-top: 6%;
+ padding-bottom: 6%;
+}
+
+#comptitle {
+ margin-top: 3%;
+ margin-bottom: 4%;
+}
+
+.comparison {
+ margin-top: 1%;
+ margin-bottom: 3%;
+}
+
+@media (max-width: 768px) {
+ #comptitle .display-4 {
+  font-size: 2.8em;
+ }
+
+ .vs {
+  width: 60px;
+ }
+ .boring {
+  width: 130%;
+ }
+ .exciting {
+  width: 130%;
+ }
+ .comparisonicon {
+  font-size: 3em;
+ }
+ .boringtext {
+  width: 130%;
+  margin-top: 25px;
+ }
+ .excitingtext {
+  width: 130%;
+  margin-top: 25px;
+ }
+}
+
+/*packages parallax*/
+
+.parallaxbg {
+ background-image: url("img/BackgroundPackages.png");
+ min-height: .5rem;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ color: white;
+ padding-top: 1%;
+ padding-bottom: 4%;
+}
+
+/*.parallaxbgStats {
+ */
+
+/* min-height: .5rem;*/
+
+/* background-attachment: fixed;*/
+
+/* background-position: center;*/
+
+/* background-repeat: no-repeat;*/
+
+/* background-size: cover;*/
+
+/* color: white;*/
+
+/* padding-top: 1%;*/
+
+/* padding-bottom: 4%;*/
+
+/*}*/
+
+/*packages animations*/
+
+.fa-info-circle:hover {
+ color: #52b7eb;
+}
+
+/*team section*/
+
+.meetteam {
+ margin-top: 3%;
+}
+
+.meettheteam {
+ margin-top: 1%;
+}
+
+/*clients section*/
+
+.clientsbg {
+ padding-top: 3%;
+ padding-bottom: 4%;
+}
+
+.card {
+ border: solid 2px;
+}
+
+
+.testicards {
+ margin-top: 5%;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.fa-quote-right {
+ margin-left: auto;
+ margin-right: 10%;
+}
+
+/*testimonials*/
+
+.owl-carousel .owl-item .item img {
+ width: 80px;
+ height: auto;
+ margin-top: 3vh;
+ margin-bottom: 1vh;
+}
+
+
+
+@media (max-width: 768px) {
+ .owl-carousel .owl-item .item img {
+  width: 60px;
+  margin-top: 5vh;
+ }
+}
+
+@media (max-width: 576px) {
+ .owl-carousel .owl-item .item img {
+  width: 40px;
+ }
+}
+
+/*FOOTER*/
+
+.footer {
+ margin: 1%;
+ text-align: center;
+ font-weight: bold;
+ font-size: 11px;
+ background-color: #EFF1F2;
+ position: relative;
+ right: 0;
+ bottom: 0;
+ left: 0;
+}
+
+.ftitle {
+ color: white;
+}
+
+.fpara {
+ color: white;
+ margin-top: 1vh;
+}
+
+.socialb {
+ color: #353A40;
+ margin: 2%;
+}
+
+#copyright {
+ margin-bottom: 0px;
+ -webkit-margin-after: 0px;
+ color: #353A40;
+ font-size: 16px;
+}
+
+/*Contact Form*/
+
+#myModalLabel {
+ padding-left: 12%;
+}
